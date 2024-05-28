@@ -20,7 +20,7 @@ export default function SignUp() {
         {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
           },
           body: JSON.stringify(formData),
         }
@@ -34,7 +34,8 @@ export default function SignUp() {
         return;
       }
       setLoading(false);
-     setError(null);
+      setError(null);
+
       navigate('/sign-in');
     } catch (error) {
       setLoading(false);
