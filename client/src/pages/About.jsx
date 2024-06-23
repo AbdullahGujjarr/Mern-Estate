@@ -4,7 +4,7 @@
 
 export default function About() {
   return (
-    <div className="about-page py-20 px-4 mx-auto max-w-7xl lg:flex">
+    <div className="about-page py-20 px-4 mx-auto max-w-7xl lg:flex gap-5">
       <div className="about-contact lg:w-1/2">
         <h2 className="text-2xl font-bold mb-4 text-slate-800">Contact Us</h2>
         <ul className="list-none space-y-2">
