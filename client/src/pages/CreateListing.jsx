@@ -255,11 +255,11 @@ const handleSubmit = async(e) => {
           </div>
           <div className="flex flex-col flex-1 gap-4">
           <p className="font-semibold">Images:
-          <span className="font-normal text-gray-600 ml-2">The first image will be the cover (max 6)</span>
+          <span className="md:font-normal text-gray-600 ml-2">The first image will be the cover (max 6)</span>
           </p>
-          <div className="flex gap-4">
+          <div className="md:flex gap-4  ">
             <input onChange={(e) =>setFiles(e.target.files)} 
-            className="p-3 border border-gray-300 rounded w-full"
+            className=" text-sm md:p-3 border border-gray-300 rounded w-full"
              type="file" id="images" accept="image/*" multiple
              
              />

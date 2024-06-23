@@ -56,7 +56,7 @@ export default function Home() {
           place with ease
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-          Sahand Estate is the best place to find your next perfect place to
+          Pro-Estate is the best place to find your next perfect place to
           live.
           <br />
           We have a wide range of properties for you to choose from.
@@ -130,6 +130,45 @@ export default function Home() {
           </div>
         )}
       </div>
+       {/* foooter*/}
+       <footer className="bg-gray-800 text-white py-8 px-4">
+      <div className="container mx-auto flex flex-wrap justify-between">
+        <div className="w-full md:w-1/2">
+          <h1 className="text-xl font-bold mb-4">PRO-ESTATE</h1>
+          <p className="text-base leading-relaxed">
+          Pro-Estate is a leading real estate agency dedicated to empowering individuals and families to achieve their property goals. We offer extensive experience and expertise in buying, selling, and renting properties in the most desirable locations.
+
+          </p>
+          <div className="flex items-center mt-4">
+          <a href="#" className="text-white hover:text-gray-400 mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 16L20 8L20 16Z" />
+                <path fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 12L20 12" />
+              </svg>
+            </a>
+            <a href="#" className="text-white hover:text-gray-400">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 11V15a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V11m0-4l4-4m0 0l-4-4m4 4v3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div className="w-full md:w-1/2 flex flex-col items-center md:items-end mt-4 md:mt-0">
+          <p className="text-lg text-white">© {new Date().getFullYear()} PRO-ESTATE</p>
+          <address className="text-sm text-white mt-2">
+            123 Main Street<br />
+            City Shakargarh, Pakistan<br />
+            (+92) 311-7735098 <br />
+            abdullahpkpk91@gmail.com
+          </address>
+        </div>
+      </div>
+    </footer>
+
+
     </div>
+
+
+
   )
 }
